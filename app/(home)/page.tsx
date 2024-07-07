@@ -1,7 +1,12 @@
+import { UserButton } from '@clerk/nextjs'
+import React from 'react'
 
 function Home() {
   return (
-    <div>Home Lauyout</div>
+    <div>Home 
+      <UserButton afterSwitchSessionUrl='/sign-in' />
+
+    </div>
   )
 }
 

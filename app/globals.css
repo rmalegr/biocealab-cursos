@@ -74,3 +74,12 @@
       @apply bg-background text-foreground;
     }
   }
+
+.cl-formButtonPrimary{
+  color:black;
+  background-color: #FDA304;
+}
+.cl-formButtonPrimary:hover{
+  background-color: rgba(253, 171, 4, 0.0);
+}
+
